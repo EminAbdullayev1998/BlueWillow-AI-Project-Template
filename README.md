@@ -1,4 +1,4 @@
-# BlueWillow-AI-Template ![icons8-willow-30](https://user-images.githubusercontent.com/108572083/232209425-905a36e4-1973-40e3-96f0-1cfd5396f18f.png)
+# BlueWillow-AI-Template ![icons8-willow-60](https://user-images.githubusercontent.com/108572083/232209450-1a4f74fc-c76c-439f-9d6b-5e4574f91476.png)
 ### This repo is BlueWillow AI Website Template
 ## Live Demo: https://blue-ai-art.netlify.app/
 
