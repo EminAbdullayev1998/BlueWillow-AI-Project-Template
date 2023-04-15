@@ -1,0 +1,366 @@
+@media only screen and (max-width: 576px){
+    #burgerMenu{
+        .main-box{
+            .nav{
+                ul{
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+
+        .button{
+            button{
+                width: 200px !important;
+            }
+        }
+    }
+
+    .videobg{
+        .main-box{
+            width: 80% !important;
+            height: auto !important;
+            .title{
+                height: auto !important;
+                h1{
+                    font-size: 32px !important;
+                }
+            }
+
+            .subtitle{
+                height: auto !important;
+                p{
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+
+    .howitworks{
+        justify-content: none !important;
+        height: 1550px !important;
+
+        .main-box{
+            width: 90% !important;
+            height: 1450px !important;
+
+            .about{
+                .text-box{
+                    width: 100% !important;
+                }
+            }
+
+            .boxes{
+                flex-direction: column !important;
+
+                .box1{
+                    width: 100% !important;
+                }
+
+                .box2{
+                    width: 100% !important;
+                }
+
+                .box3{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .about-box{
+        align-items: stretch !important;
+        height: 750px !important;
+    
+        .main-box{
+            justify-content: none !important;
+            flex-direction: column;
+            width: 90% !important;
+    
+            .video-box{
+                width: 100% !important;
+                iframe{
+                    width: 100%;
+                    height: 300px;
+                }
+            }
+    
+            .text-box{
+                width: 100% !important;
+            }
+        }
+    }
+
+    .careers{
+
+        .main-box{
+            width: 90% !important;
+            .text-box{
+                width: 100% !important;
+                .title{
+                    height: auto !important;
+                }
+
+                .about{
+                    height: auto !important;
+                    p{
+                        font-size: 15px !important;
+                    }
+                }
+
+                .button-box{
+                    height: auto !important;
+                }
+            }
+        }
+    }
+
+    .contact{
+
+        .main-box{
+            width: 90% !important;
+
+            .title{
+                align-items: center;
+
+                h2{
+                    font-size: 32px !important;
+                    line-height: 0px !important;
+                }
+            }
+
+            .subtitle{
+                height:  auto !important;
+
+            }
+
+            .form{
+
+                .form-box{
+                    width: 100% !important;
+
+                    .input-box{
+                        width: 100% !important;
+                        height: auto !important;
+                        flex-direction: column;
+
+                        .box1{
+                            width: 100% !important;
+                            .input-box1{
+                                width: 100% !important; 
+                                input{
+                                    width: 80% !important;
+                                }
+                            }
+                        }
+
+                        .box2{
+                            width: 100% !important;
+                            .input-box2{
+                                width: 100% !important;
+                                input{
+                                    width: 80% !important;
+                                }
+                            }
+                        }
+                    }
+
+                    .email-box{
+                        height: auto !important;
+
+                        .input-box3{
+                            width: 100% !important;
+                            input{
+                                width: 80% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        height: 300px !important;
+        .bottom{
+            height: 200px !important;
+            .main-box{
+                text-align: center;
+                flex-direction: column;
+                a{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 992px){
+    .videobg{
+        .main-box{
+            width: 80% !important;
+            height: auto !important;
+            .title{
+                height: auto !important;
+                h1{
+                    font-size: 60px !important;
+                }
+            }
+
+            .subtitle{
+                height: auto !important;
+                p{
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+
+    .howitworks{
+        height: 1300px !important;
+        .main-box{
+            height: 1100px !important;
+            .boxes{
+                flex-wrap: wrap !important;
+                .box1{
+                   width: 45% !important; 
+                }
+
+                .box2{
+                    width: 45% !important; 
+                    .title .text p{
+                        font-size: 15px !important;
+                    }
+                }
+
+                .box3{
+                    width: 45% !important; 
+                    margin-top: 70px !important;
+                }
+            }
+        }
+    }
+
+    .about-box{
+        align-items: stretch !important;
+        height: 750px !important;
+    
+        .main-box{
+            justify-content: none !important;
+            flex-direction: column;
+            width: 90% !important;
+    
+            .video-box{
+                width: 100% !important;
+                iframe{
+                    width: 660px;
+                    height: 300px;
+                }
+            }
+    
+            .text-box{
+                width: 80% !important;
+            }
+        }
+    }
+
+    .careers{
+
+        .main-box{
+
+            .text-box{
+                width: 80% !important;
+                .title{
+                    height: auto !important;
+                }
+
+                .about{
+                    height: 250px !important;
+                    p{
+                        font-size: 18px !important;
+                    }
+                }
+
+                .button-box{
+                    height: auto !important;
+                }
+            }
+        }
+    }
+
+    .contact{
+
+        .main-box{
+            width: 90% !important;
+
+            .form{
+                .form-box{
+                    width: 100% !important;
+
+                    .email-box{
+                        .input-box3{
+                            width: 500px !important;
+                            input{
+                                width: 90% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .howitworks{
+        .main-box{
+            width: 90% !important;
+            height: auto !important;
+        }
+    }
+
+    .about-box{
+        height: 550px !important;
+        .main-box{
+            height: 440px !important;
+        }
+    }
+
+    .contact{
+
+        .main-box{
+
+            .form{
+
+                .form-box{
+                    width: 100% !important;
+
+                    .input-box{
+
+                        .box1{
+                            .input-box1{
+                                width: 290px !important;
+                            }
+                        }
+                        .box2{
+                            .input-box2{
+                                width: 290px !important;
+                            }
+                        }
+                    }
+
+                    .email-box{
+                        .input-box3{
+                            width: 530px !important;
+                            input{
+                                width: 90% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
